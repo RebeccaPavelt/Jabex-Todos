@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      <h2>TODOS</h2>
+      <h2>Aktuelle To-Dos:</h2>
     </main>
   );
 }
