@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* -- body -- */
+body {
+  @apply m-4 bg-secondary;
+}
+/* -- main header -- */
+h1 {
+  @apply text-primary uppercase font-extrabold  text-xl;
+}
+
+/* -- page heading -- */
+h2 {
+  @apply uppercase;
+}
+
+/* -- navbar -- */
+
+.nav {
+  @apply flex justify-start items-center border-gray-400 border-b-2;
+}
+
+.nav_items {
+  @apply m-3 p-2;
+}
