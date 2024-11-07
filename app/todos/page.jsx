@@ -1,3 +1,5 @@
+import TodoList from "./TodoList";
+
 export default function Todos() {
   return (
     <main>
@@ -10,7 +12,7 @@ export default function Todos() {
           <ul></ul>
         </div>
       </nav>
-      {/* <TicketList /> */}
+      <TodoList />
     </main>
   );
 }
