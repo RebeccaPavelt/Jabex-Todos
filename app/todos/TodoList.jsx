@@ -1,4 +1,4 @@
-async function getTodos() {
+export async function getTodos() {
   const response = await fetch("http://localhost:4000/todos");
 
   return response.json();
