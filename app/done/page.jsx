@@ -1,15 +1,14 @@
-export default function Todos() {
+export default function Done() {
   return (
     <main>
       <nav>
         <div>
-          <h2>ToDos</h2>
+          <h2>Done ToDos</h2>
           <p>
-            <small>Currently open ToDos.</small>
+            <small> Erledigte Todos</small>
           </p>
         </div>
       </nav>
-      {/* <TicketList /> */}
     </main>
   );
 }

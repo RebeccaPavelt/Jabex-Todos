@@ -14,6 +14,7 @@ export default function Navbar() {
       />
       <h1>Jabex Todo List</h1>
       <Link href="/">Dashboard</Link>
+      <Link href="/todos">ToDos</Link>
       <Link href="/done">Erledigt</Link>
     </nav>
   );
