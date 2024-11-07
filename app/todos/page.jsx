@@ -7,6 +7,7 @@ export default function Todos() {
           <p>
             <small>Currently open ToDos.</small>
           </p>
+          <ul></ul>
         </div>
       </nav>
       {/* <TicketList /> */}
